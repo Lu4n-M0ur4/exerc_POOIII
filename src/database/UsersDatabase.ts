@@ -8,7 +8,8 @@ export class UsersDatabase extends BaseDatabase {
     const results: UserDB[] = await BaseDatabase.connection(
       UsersDatabase.TABLE_USER
     );
-
+    
+    
     return results;
   }
 

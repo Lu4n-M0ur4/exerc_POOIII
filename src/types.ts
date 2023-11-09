@@ -3,3 +3,9 @@ export interface UserDB {
     name: string,
     created_at:string
 }
+
+export interface CoursesDB {
+    id:string,
+    name:string,
+    leasons:number
+}
